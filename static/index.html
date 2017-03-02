@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Justering" />
+  <meta name="description" content="灵析" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="msapplication-config" content="none" />
+  <title>Canvas Animator Starter</title>
+</head>
+<body>
+  <style>
+    body {
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      float: left;
+      background: #333;
+    }
+  </style>
+  <canvas id="js-canvas"></canvas>
+  <script src="../node_modules/canvas-animator/dist/index.min.js"></script>
+  <script>
+    var Star = canvasAnimator.default.shapes.Star
+    var Animator = canvasAnimator.default.Animator
+
+    // 获取 canvas 元素
+    var canvas = document.getElementById('js-canvas')
+    canvas.width = canvas.clientWidth
+    canvas.height = canvas.clientHeight
+
+    // 获取 CanvasRenderingContext2D
+    var context = canvas.getContext('2d')
+
+    // 在 canvas的中央 创建一个 最大半径为75 最小半径为25 5个角 颜色为#ff7f00 的星
+    var star = new Star(
+      context,
+      canvas.width / 2, canvas.height / 2,
+      75, 25, 5,
+      '#ff7f00', 0
+    )
+
+    star.rotationVel = Math.PI * 2
+
+    // 创建动画播放器并播放
+    var myAnimator = new Animator(star)
+    myAnimator.play()
+  </script>
+</body>
+</html>
