@@ -23,3 +23,7 @@ npm run dev
 ```
 npm run build
 ```
+
+### 传统方式
+
+[index.html](./static/index.html)
