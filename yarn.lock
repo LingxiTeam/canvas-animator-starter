@@ -947,9 +947,9 @@ caniuse-db@^1.0.30000346, caniuse-db@^1.0.30000624:
   version "1.0.30000624"
   resolved "http://registry.npm.taobao.org/caniuse-db/download/caniuse-db-1.0.30000624.tgz#554b87547895e36f5fe128f4b7448a2ea5bf2213"
 
-canvas-animator@0.2.3:
-  version "0.2.3"
-  resolved "http://registry.npm.taobao.org/canvas-animator/download/canvas-animator-0.2.3.tgz#d5747b3413d6b971e42e0e4c857c9a36b4caa58a"
+canvas-animator@0.2.4:
+  version "0.2.4"
+  resolved "http://registry.npm.taobao.org/canvas-animator/download/canvas-animator-0.2.4.tgz#5388a346608f215625528fe20c54b74a827ddd13"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"

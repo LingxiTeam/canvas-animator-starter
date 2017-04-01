@@ -14,7 +14,7 @@
   "author": "Wu Yu",
   "license": "ISC",
   "dependencies": {
-    "canvas-animator": "0.2.3",
+    "canvas-animator": "0.2.4",
     "vue": "^2.1.10",
     "vue-resource": "^1.2.0",
     "vue-router": "^2.2.0",
