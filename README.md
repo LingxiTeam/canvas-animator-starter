@@ -1,5 +1,11 @@
 # Canvas Animator Starter
 
+### 安装依赖
+
+```
+yarn
+```
+
 ### 检查代码
 
 ```
@@ -23,3 +29,8 @@ npm run dev
 ```
 npm run build
 ```
+
+### 外部引用方式
+
+1. `yarn`
+2. [index.html](./static/index.html)
